@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=PT+Sans:wght@400;@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
   
   
   /*********************************/
@@ -266,12 +267,16 @@ img{
  
  
   
-  .toggle_title {
+ .toggle_title {
 	position: relative;
-	padding: 20px;
+	padding: 20px 0;
 	border-bottom: 1px solid #000;
-	cursor: pointer; 
-  }
+	cursor: pointer;
+	font-size: 19px;
+	color: #000000;
+	text-transform: uppercase;
+	word-spacing: 2px;
+}
   
   .toggle_title:hover {
 	opacity: 0.7;
@@ -280,9 +285,11 @@ img{
   
   .toggle_ans {
 	margin: 0;
-	padding: 20px;
+	padding: 20px 0;
 	display: none;
-  }
+	color: #000;
+	font-size: 16px;
+}
    
   .plus {
 	position: absolute;
@@ -296,10 +303,10 @@ img{
   .plus:after {
 	display: block;
 	content: "";
-	background-color: #6b3906;
+	background-color: #000;
 	position: absolute;
 	width: 15px;
-	height: 1px;
+	height: 3px;
 	bottom: 50%;
 	right: 50%;
 	transform: translate(50%, 50%);
@@ -307,7 +314,7 @@ img{
   }
   
   .plus:before {
-	width: 1px;
+	width: 3px;
 	height: 15px;
   }
    
@@ -326,20 +333,238 @@ img{
 	margin: 35px 0;
 }
 
+.toggle_title.border-none{
+	border: none;
+}
+ 
+   /*********************************/
+  /*********** Experiance CSS**********/
+ /********************************/
 
+ .experiance_parent{
+	position: relative;
+ }
 
+ .experiance_first {
+	background: #ebebeb;
+	padding: 80px 0;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+}
 
+.experiance_left h1 {
+	font-size: 154px;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+	color: #ff0000;
+}
 
+.experiance_left h2 {
+	color: #171717;
+	font-size: 66px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.experiance_left h5 {
+	color: #ff0000;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+}
+
+.experiance_left span {
+	width: 105px;
+	height: 2px;
+	background: #535353;
+	display: inline-block;
+}
+
+.line_design {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 15px;
+}
+
+.experiance_left p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px;
+	color: #171717;
+	margin-bottom: 30px;
+}
+
+.experiance_left {
+	width: 81%;
+}
+
+.btn_2 {
+	background: transparent;
+	border: 1px solid transparent;
+	padding: 10px 15px;
+	color: #ff0000;
+	transition: 0.3s;
+}
+
+.btn_2:hover { 
+	border: 1px solid #ff0000; 
+}
+
+.experiance_right {
+	background: #ff0000;
+	padding: 413px 0;
+}
+
+.experiance_right {
+	background: #ff0000;
+	padding: 170px 0;
+	position: relative;
+	z-index: 99;
+}
+
+.experiance_text h1 {
+	font-size: 220px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding-left: 58px;
+}
+ 
+.experiance_carousel .owl-item img {
+	display: block;
+	width: 625px !important;
+}
+
+.experiance_carousel_main {
+	position: absolute;
+	bottom: 77px;
+	left: -88px;
+	z-index: 999;
+}
+
+.experiance_carousel .owl-nav {
+	position: absolute;
+	z-index: 9999;
+	bottom: -45px;
+	left: 10px;
+}
+
+.experiance_carousel .owl-prev, .experiance_carousel .owl-next {
+	background: #fff !important;
+	padding: 25px !important;
+	height: 45px;
+	width: 61px;
+	border-radius: 0 !important;
+	margin: 0 !important;
+}
+
+.experiance_carousel .owl-prev:hover ,
+.experiance_carousel .owl-next:hover {
+	color: #000 !important;
+}
 
 
 
    /*********************************/
-  /*********** BANNER CSS**********/
+  /*********** Lose CSS**********/
+ /********************************/
+ .promise_left.lose_right {
+	padding-left: 74px;
+}
+
+   /*********************************/
+  /*********** CLIENT CSS**********/
  /********************************/
 
+ .client_single_review > img {
+	width: 38px !important;
+	position: absolute;
+	top: -14px;
+	right: -14px;
+}
+
+.client_single_review {
+	background-color: #fff;
+	box-shadow: 0 2px 10px #ddd;
+	padding: 35px 40px;
+	position: relative;
+	margin: 15px;
+}
+
+.client_single_review > p {
+	color: #000000;
+	font-size: 14px; 
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	height: 100px; 
+}
+
+.client_info > img {
+	width: 50px !important;
+}
+
+.client_info {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.client_name h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 2px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.client_name  > p {
+	color: #000000;
+	font-size: 14px; 
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.review_area {
+	background: #ebebeb;
+}
 
 
 
+   /*********************************/
+  /*********** Icon CSS**********/
+ /********************************/
+
+ .icon_area{
+	background: #000;
+ }
+
+ .iconsss {
+	display: flex;
+	justify-content: space-evenly; 
+}
+
+.iconsss li img {
+	width: 66px;
+	height: 55px;
+}
+
+.iconsss li p {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.iconsss li {
+	text-align: center;
+}
+
+   /*********************************/
+  /*********** Lose CSS**********/
+ /********************************/
 
 
 /* 
@@ -349,5 +574,9 @@ img{
     font-family: 'Playfair Display', serif;
 
     font-family: 'Montserrat', sans-serif;
+
+	font-family: 'Work Sans', sans-serif;
+
+
  
  */
