@@ -1,5 +1,10 @@
  
-   /*********************************/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=PT+Sans:wght@400;@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+  
+  
+  /*********************************/
   /***********1.GLOBAL CSS*********/
  /********************************/
  /* Default CSS */
@@ -75,5 +80,274 @@ img{
   height: auto;
 }
    /*********************************/
-  /***********2.GLOBAL CSS**********/
+  /*********** Header CSS**********/
  /********************************/
+
+
+ .header_area {
+	background: #fff;
+	padding: 20px 0;
+}
+
+.menu ul {
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+}
+
+.menu ul li a {
+	font-size: 18px;
+	color: #000;
+  font-weight: 400;
+  font-family: 'PT Sans', sans-serif; 
+}
+
+
+.menu ul li a.active ,
+.menu ul li a:hover {
+  font-weight: 700;
+}
+
+.menu2 {
+	display: flex;
+	gap: 20px;
+	justify-content: flex-end;
+}
+
+.menu2 li a {
+	color: #000;
+	font-size: 16px;
+  font-family: 'PT Sans', sans-serif; 
+}
+
+.header_area .row {
+	align-items: center;
+}
+
+
+   /*********************************/
+  /*********** BANNER CSS**********/
+ /********************************/
+
+.banner_area{
+  background: url(../images/banner/banner-bg.png) no-repeat scroll center center / cover;
+}
+
+.banner-right{
+  margin-top: 55px;
+}
+
+.banner_left h2 {
+	font-size: 72px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	width: 359px;
+}
+
+.banner_left {
+	width: 359px;
+	margin: 75px 0;
+}
+
+.banner_left p {
+	font-size: 26px;
+	margin: 20px 0; 
+	font-weight: 400;
+	color: #fff;
+}
+
+.btn_1 {
+	border: none;
+	padding: 10px 20px;
+	background: #fff;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #ff0000;
+  transition: 0.3s;
+}
+ 
+.btn_1:hover{
+  opacity: 0.83;
+}
+
+.btn_desin_1 {
+	display: flex;
+	gap: 0;
+}
+
+.btn_desin_1 i {
+	background: #000;
+	color: #ffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 20px;
+}
+ 
+
+   /*********************************/
+  /*********** Plan CSS**********/
+ /********************************/
+
+ .section_padding{
+  padding: 80px 0; 
+ }
+
+ .section_title {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+ .section_title p {
+	color: #ff0000;
+	font-size: 22px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.section_title h2 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+}
+ 
+.single_plan > img {
+	width: 282px;
+	height: 326px;
+}
+
+.single_plan {
+	text-align: center;
+}
+
+.single_plan h4 {
+	font-size: 32px;
+	color: #171717;
+	font-weight: 600;
+	margin-top: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.single_plan p {
+	color: #171717;
+	font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+	margin: 5px 0 25px 0;
+}
+
+.single_plan h3 {
+	color: #171717;
+	font-size: 46px;
+}
+
+.star li i {
+	color: #ce1413;
+}
+
+.star {
+	display: flex;
+	justify-content: center;
+	margin: 16px 0 50px 0;
+}
+ 
+
+.btn_desin_1.btn_design_1_red button {
+	background: #ff0000;
+	color: #fff;
+}
+
+   /*********************************/
+  /*********** PROMISE CSS**********/
+ /********************************/
+ 
+ 
+  
+  .toggle_title {
+	position: relative;
+	padding: 20px;
+	border-bottom: 1px solid #000;
+	cursor: pointer; 
+  }
+  
+  .toggle_title:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+  }
+  
+  .toggle_ans {
+	margin: 0;
+	padding: 20px;
+	display: none;
+  }
+   
+  .plus {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	height: 100%;
+	border-radius: 0px 10px 10px 0px;
+  }
+  
+  .plus:before,
+  .plus:after {
+	display: block;
+	content: "";
+	background-color: #6b3906;
+	position: absolute;
+	width: 15px;
+	height: 1px;
+	bottom: 50%;
+	right: 50%;
+	transform: translate(50%, 50%);
+	transition: 0.5s;
+  }
+  
+  .plus:before {
+	width: 1px;
+	height: 15px;
+  }
+   
+  .toggle_title.selected .plus:before {
+	transform: translate(50%, 50%) rotate(90deg);
+  }
+
+  .promise_left h3 {
+	font-size: 64px;
+	color: #171717;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.promise_acordion {
+	margin: 35px 0;
+}
+
+
+
+
+
+
+
+
+   /*********************************/
+  /*********** BANNER CSS**********/
+ /********************************/
+
+
+
+
+
+
+/* 
+
+    font-family: 'PT Sans', sans-serif; 
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Montserrat', sans-serif;
+ 
+ */
