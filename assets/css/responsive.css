@@ -21,6 +21,11 @@
         display: none;
     }
 
+    .menu2 {
+        flex-direction: inherit !important;
+        margin: 25px 0 30px 0;
+    }
+
     .mobile_bars {
         display: block;
     }
