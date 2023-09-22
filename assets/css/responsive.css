@@ -9,6 +9,19 @@
     }
 }
 
+@media all and (max-width: 1300px){ 
+    .toggle_title { 
+        padding: 20px 27px 20px 0; 
+    }
+}
+@media all and (max-width: 1100px){
+    .experiance_carousel .owl-item img { 
+        width: 562px !important;
+    }
+    .toggle_title { 
+        padding: 20px 7px 20px 0; 
+    }
+}
 @media all and (min-width: 991px){
     .mobile_menu {
         display: none;
@@ -28,7 +41,7 @@
     }
 
     .toggle_title {
-        padding: 12px 20px 12px 0;
+        padding: 12px 28px 12px 0;
     }
 
     .client_single_review { 
@@ -409,8 +422,8 @@
     .logo a img {
         width: 149px;
     }
-    .toggle_title { 
-        padding: 12px 20px 12px 0;
+    .toggle_title {
+        padding: 12px 33px 12px 0;
     }
     .client_single_review > p {
         height: 88px;
@@ -441,6 +454,7 @@
     .mobile_menu ul li a, .menu ul li a {
         font-size: 16px; 
     }
+
     .single_plan > img { 
         width: 163px;
     }
