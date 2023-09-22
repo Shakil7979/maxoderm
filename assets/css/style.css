@@ -421,19 +421,7 @@ img{
    /*********************************/
   /*********** Experiance CSS**********/
  /********************************/
-
- .experiance_parent{
-	position: relative;
- }
-
- .experiance_first {
-	background: #ebebeb;
-	padding: 80px 0;
-	position: absolute;
-	left: 0;
-	width: 100%;
-	z-index: 9;
-}
+ 
 
 .experiance_left h1 {
 	font-size: 154px;
@@ -498,21 +486,7 @@ img{
 	border: 1px solid #ff0000; 
 }
  
-
-.experiance_right {
-	background: #ff0000;
-	padding: 90px 0 250px 0;
-	position: relative;
-	z-index: 99;
-}
-
-.experiance_text h1 {
-	font-size: 220px;
-	color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	padding-left: 58px;
-}
+ 
  
 .experiance_carousel .owl-item img {
 	display: block;
@@ -526,14 +500,15 @@ img{
 	z-index: 999;
 }
 
-.experiance_carousel .owl-nav {
+.experiance_level .owl-nav {
 	position: absolute;
 	z-index: 9999;
-	bottom: -45px;
-	left: 10px;
+	bottom: 15px;
+	right: 0;
+	left: 0;
 }
 
-.experiance_carousel .owl-prev, .experiance_carousel .owl-next {
+.experiance_level  .owl-prev, .experiance_level  .owl-next {
 	background: #fff !important;
 	padding: 25px !important;
 	height: 45px;
@@ -542,12 +517,32 @@ img{
 	margin: 0 !important;
 }
 
-.experiance_carousel .owl-prev:hover ,
-.experiance_carousel .owl-next:hover {
+.experiance_level  .owl-prev:hover ,
+.experiance_level  .owl-next:hover {
 	color: #000 !important;
 }
 
+.experiance_level{
+	position: relative;
+}
 
+.experiance_video iframe {
+	width: 100%;
+	height: 100%;
+}
+ 
+.experiance_area{
+	background: url('../images/experiance/bg.png') no-repeat scroll center center / cover;
+}
+
+.experiance_video {
+	position: absolute;
+	bottom: 59px;
+	right: 0;
+	z-index: 99;
+	width: 625px;
+	height: 408px;
+}
 
    /*********************************/
   /*********** Lose CSS**********/

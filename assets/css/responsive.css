@@ -21,6 +21,10 @@
     .toggle_title { 
         padding: 20px 7px 20px 0; 
     }
+    .experiance_video { 
+        width: 507px;
+        height: 423px;
+    }
 }
 @media all and (min-width: 991px){
     .mobile_menu {
@@ -30,6 +34,28 @@
 @media all and (max-width: 991px){
     .menu {
         display: none;
+    }
+
+    .experiance_area {
+        background: #ebebeb;
+        padding-bottom: 69px !important;
+    }
+
+    .experiance_video {
+        position: inherit;
+        width: 100% !important;
+        margin-top: 25px;
+        height: 292px;
+    }
+    .experiance_left {
+        width: 100%;
+        text-align: center;
+    }
+    .line_design { 
+        justify-content: center;
+    }
+    .experiance_level .owl-nav { 
+        bottom: -45px; 
     }
 
     .experiance_carousel .owl-prev, .experiance_carousel .owl-next { 

@@ -8,7 +8,7 @@ jQuery(function($) {
 
 
 $(document).ready(function(){
-    $(".experiance_carousel").owlCarousel({
+    $(".experiance_level").owlCarousel({
         loop:true, 
         nav:true,
         dots:false,
