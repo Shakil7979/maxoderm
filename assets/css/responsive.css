@@ -1,9 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
+ 
 
 @media all and (min-width: 1400px){
     .experiance_right { 
@@ -22,6 +17,22 @@
 @media all and (max-width: 991px){
     .menu {
         display: none;
+    }
+
+    .experiance_carousel .owl-prev, .experiance_carousel .owl-next { 
+        height: 35px;
+        width: 43px; 
+    }
+    .experiance_carousel .owl-nav { 
+        bottom: -35px; 
+    }
+
+    .toggle_title {
+        padding: 12px 20px 12px 0;
+    }
+
+    .client_single_review { 
+        padding: 25px 15px; 
     }
 
     .menu2 {
@@ -130,8 +141,7 @@
 
     .toggle_title { 
         font-size: 14px; 
-        word-spacing: -3px;
-        padding: 12px 0;
+        word-spacing: -3px; 
     }
 
     .experiance_first { 
@@ -162,8 +172,8 @@
         --bs-gutter-x: 0 !important;
     }
 
-    .client_single_review > p { 
-        height: 206px;
+    .client_single_review > p {
+        height: 150px;
     }
 
     .iconsss li img {
@@ -173,6 +183,10 @@
 
     .iconsss li p { 
         font-size: 14px; 
+    }
+
+    .single_plan > img { 
+        height: 249px;
     }
 
     .subscribe_left h3 { 
@@ -399,7 +413,7 @@
         padding: 12px 20px 12px 0;
     }
     .client_single_review > p {
-        height: 106px;
+        height: 88px;
     }
     .subscribe_right .sub_btn { 
         width: 130px; 

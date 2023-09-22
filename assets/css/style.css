@@ -485,15 +485,11 @@ img{
 .btn_2:hover { 
 	border: 1px solid #ff0000; 
 }
+ 
 
 .experiance_right {
 	background: #ff0000;
-	padding: 413px 0;
-}
-
-.experiance_right {
-	background: #ff0000;
-	padding: 170px 0;
+	padding: 90px 0 250px 0;
 	position: relative;
 	z-index: 99;
 }
@@ -513,7 +509,7 @@ img{
 
 .experiance_carousel_main {
 	position: absolute;
-	bottom: 77px;
+	bottom: 150px;
 	left: -88px;
 	z-index: 999;
 }
