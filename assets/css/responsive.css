@@ -6,17 +6,17 @@
     }
     .subscribe_right .sub_btn {
         padding: 14px;
+    } 
+    .experiance_video { 
+        right: 82px; 
+        width: 660px;
+        height: 408px;
     }
 }
 
 @media all and (max-width: 1300px){ 
     .toggle_title { 
         padding: 20px 27px 20px 0; 
-    }
-    .experiance_video { 
-        right: 82px; 
-        width: 660px;
-        height: 408px;
     }
 }
 @media all and (max-width: 1100px){
