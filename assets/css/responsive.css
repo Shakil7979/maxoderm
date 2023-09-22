@@ -4,8 +4,8 @@
     .experiance_right { 
         padding: 159px 0; 
     }
-    .subscribe_right .sub_btn { 
-        padding: 11px; 
+    .subscribe_right .sub_btn {
+        padding: 14px;
     }
 }
 
@@ -215,8 +215,8 @@
             -ms-flex-align: center;
                 align-items: center;
     }
-    .subscribe_right .sub_btn { 
-        padding: 11px; 
+    .subscribe_right .sub_btn {
+        padding: 15px;
     }
 
     .footer_right { 
@@ -284,10 +284,7 @@
     } 
     .iconsss li p {
         font-size: 12px;
-    }
-    .subscribe_right .sub_btn {
-        padding: 10px;
-    }
+    } 
     .subscribe_right { 
         margin-top: 25px;
     }
@@ -405,9 +402,9 @@
         font-size: 16px;
         line-height: 24px;
     }
-    .subscribe_right .sub_btn { 
-        font-size: 16px; 
-        padding: 14px; 
+    .subscribe_right .sub_btn {
+        font-size: 16px;
+        padding: 18px;
     }
     .footer_right ul li a {
         font-size: 14px; 
@@ -446,6 +443,9 @@
     .experiance_carousel_main {
         bottom: 47px;
         left: 67px;
+    }
+    .iconsss li { 
+        margin-top: 10px;
     }
     
 }
