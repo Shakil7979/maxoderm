@@ -20,7 +20,22 @@ $(document).ready(function(){
         nav:false,
         dots:false, 
         margin: 20,
-        items:3 
+        items:3,
+        responsive : { 
+            0 : { 
+                items:1,
+            }, 
+            576 : { 
+                items:1,
+            }, 
+            768 : { 
+               
+            }
+        }
     });
+
+    $(document).on('click','.mobile_bars', function(){
+        $('.mobile_menu').slideToggle();
+    })
 });
   
