@@ -1,14 +1,8 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
  
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=PT+Sans:wght@400;@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
   
   
@@ -195,6 +189,7 @@ img{
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  position: relative;
 }
  
 .btn_1:hover{
@@ -205,7 +200,7 @@ img{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	gap: 0;
+	gap: 0; 
 }
 
 .btn_desin_1 i {
@@ -215,12 +210,16 @@ img{
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	padding: 12px 20px;
+	position: absolute;
+	right: -54px;
+	height: 100%;
+	top: 0;
 }
  
 

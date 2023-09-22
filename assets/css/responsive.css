@@ -24,7 +24,7 @@
 }
 @media all and (min-width: 991px){
     .mobile_menu {
-        display: none;
+        display: none !important;
     }
 }
 @media all and (max-width: 991px){
@@ -103,6 +103,7 @@
         top: 78px;
         padding: 20px 0;
         display: none;
+        z-index: 9;
     }
 
     .banner_left {
@@ -383,7 +384,7 @@
         font-size: 125px;
     }
     .experiance_carousel .owl-item img {
-        width: 71% !important;
+        width: 323px !important;
     }
     .promise_left h3 { 
         text-align: center;
@@ -460,9 +461,9 @@
     }
     .promise_left h3 {
         font-size: 22px;
-    }
+    } 
     .experiance_carousel .owl-item img {
-        width: 84% !important;
+        width: 230px !important;
     }
     .experiance_carousel .owl-prev, .experiance_carousel .owl-next { 
         height: 33px;
