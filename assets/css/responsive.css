@@ -9,6 +9,9 @@
     .experiance_right { 
         padding: 159px 0; 
     }
+    .subscribe_right .sub_btn { 
+        padding: 11px; 
+    }
 }
 
 @media all and (min-width: 991px){
