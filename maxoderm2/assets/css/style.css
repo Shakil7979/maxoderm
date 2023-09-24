@@ -1,0 +1,1081 @@
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+  
+  
+  /*********************************/
+  /***********1.GLOBAL CSS*********/
+ /********************************/
+ /* Default CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, span, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+button{
+  outline: none !important;
+}
+input
+{
+    outline:none !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding:0;
+}
+input, button, textarea, select{
+  outline: none;
+}
+.btn.focus, .btn:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #283562;
+  overflow: hidden;
+}
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+   /*********************************/
+  /*********** Header CSS**********/
+ /********************************/
+
+
+ .header_area {
+	background: #fff;
+	padding: 20px 0;
+}
+
+.mobile_menu ul,
+.menu ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 40px;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.mobile_menu ul li a ,
+.menu ul li a {
+	font-size: 18px;
+	color: #000;
+  font-weight: 400;
+  font-family: 'PT Sans', sans-serif; 
+}
+
+
+.menu ul li a.active ,
+.menu ul li a:hover {
+  font-weight: 700;
+}
+
+.menu2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 35px;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+
+.menu2 li a {
+	color: #000;
+	font-size: 16px;
+  font-family: 'PT Sans', sans-serif; 
+}
+
+.header_area .row {
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.mobile_bars {
+	display: none;
+}
+
+
+   /*********************************/
+  /*********** BANNER CSS**********/
+ /********************************/
+
+.banner_area{
+  background: url(../images/banner/banner-bg.png) no-repeat scroll center center / cover;
+}
+
+.banner-right{
+  margin-top: 55px;
+}
+
+.banner_left h2 {
+	font-size: 72px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	width: 359px;
+	text-transform: uppercase;
+}
+
+.banner_left {
+	width: 359px;
+	margin: 75px 0;
+}
+
+.banner_left p {
+	font-size: 26px;
+	margin: 20px 0;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn_1 {
+	border: none;
+	padding: 10px 20px;
+	background: #fff;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #ff0000;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+}
+ 
+.btn_1:hover{
+  opacity: 0.83;
+}
+
+.btn_desin_1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 0; 
+}
+
+.btn_desin_1 i {
+	background: #000;
+	color: #ffff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 12px 20px;
+	position: absolute;
+	right: -54px;
+	height: 100%;
+	top: 0;
+}
+ 
+
+   /*********************************/
+  /*********** Plan CSS**********/
+ /********************************/
+
+ .section_padding{
+  padding: 80px 0; 
+ }
+
+ .section_title {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+ .section_title p {
+	color: #ff0000;
+	font-size: 22px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.section_title h2 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #000;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+ 
+.single_plan > img {
+	width: 282px;
+	height: 326px;
+}
+
+.single_plan {
+	text-align: center;
+}
+
+.single_plan h4 {
+	font-size: 32px;
+	color: #171717;
+	font-weight: 600;
+	margin-top: 35px;
+	text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.single_plan .btn_1 { 
+	font-size: 16px; 
+}
+
+.single_plan p {
+	color: #171717;
+	font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+	margin: 5px 0 25px 0; 
+	text-transform: uppercase;
+}
+
+.single_plan h3 {
+	color: #171717;
+	font-size: 46px;
+}
+
+.star li i {
+	color: #ce1413;
+}
+
+.star {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 16px 0 50px 0;
+} 
+
+.btn_desin_1.btn_design_1_red button {
+	background: #ff0000;
+	color: #fff;
+}
+
+.single_plan p span {
+	color: #ce1413;
+	font-weight: 700;
+}
+
+.single_plan h3 span {
+	font-size: 34px;
+	color: #5e5e5e;
+	position: relative;
+}
+
+.single_plan h3 span::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: red;
+	left: 0;
+	top: 17px;
+	-webkit-transform: rotate(12deg);
+	    -ms-transform: rotate(12deg);
+	        transform: rotate(12deg);
+}
+
+   /*********************************/
+  /*********** PROMISE CSS**********/
+ /********************************/
+ 
+ 
+  
+ .toggle_title {
+	position: relative;
+	padding: 20px 0;
+	border-bottom: 1px solid #000;
+	cursor: pointer;
+	font-size: 19px;
+	color: #000000;
+	text-transform: uppercase;
+	word-spacing: 2px;
+}
+  
+  .toggle_title:hover {
+	opacity: 0.7;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+  }
+  
+  .toggle_ans {
+	margin: 0;
+	padding: 20px 0;
+	display: none;
+	color: #000;
+	font-size: 16px;
+}
+   
+  .plus {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	height: 100%;
+	border-radius: 0px 10px 10px 0px;
+  }
+  
+  .plus:before,
+  .plus:after {
+	display: block;
+	content: "";
+	background-color: #7e7e7e;
+	position: absolute;
+	width: 15px;
+	height: 2px;
+	bottom: 50%;
+	right: 50%;
+	-webkit-transform: translate(50%, 50%);
+	    -ms-transform: translate(50%, 50%);
+	        transform: translate(50%, 50%);
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+  }
+
+  .promise_left .btn_1 { 
+    font-size: 16px; 
+}
+  
+  .plus:before {
+	width: 2px;
+	height: 15px;
+  }
+   
+  .toggle_title.selected .plus:before {
+	-webkit-transform: translate(50%, 50%) rotate(90deg);
+	    -ms-transform: translate(50%, 50%) rotate(90deg);
+	        transform: translate(50%, 50%) rotate(90deg);
+  }
+
+  .promise_left h3 {
+	font-size: 64px;
+	color: #171717;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.promise_acordion {
+	margin: 35px 0;
+}
+
+.toggle_title.border-none{
+	border: none;
+}
+ 
+   /*********************************/
+  /*********** Experiance CSS**********/
+ /********************************/
+ 
+
+.experiance_left h1 {
+	font-size: 154px;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+	color: #ff0000;
+}
+
+.experiance_left h2 {
+	color: #171717;
+	font-size: 66px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.experiance_left h5 {
+	color: #ff0000;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+}
+
+.experiance_left span {
+	width: 105px;
+	height: 2px;
+	background: #535353;
+	display: inline-block;
+}
+
+.line_design {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 12px;
+	margin-bottom: 15px;
+}
+
+.experiance_left p {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px;
+	color: #171717;
+	margin-bottom: 30px;
+}
+
+.experiance_left {
+	width: 81%;
+}
+
+.btn_2 {
+	background: transparent;
+	border: 1px solid transparent;
+	padding: 10px 15px;
+	color: #ff0000;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.btn_2:hover { 
+	border: 1px solid #ff0000; 
+}
+ 
+ 
+ 
+.experiance_carousel .owl-item img {
+	display: block;
+	width: 625px !important;
+}
+
+.experiance_carousel_main {
+	position: absolute;
+	bottom: 150px;
+	left: -88px;
+	z-index: 999;
+}
+
+.experiance_level .owl-nav {
+	position: absolute;
+	z-index: 9999;
+	bottom: 15px;
+	right: 0;
+	left: 0;
+}
+
+.experiance_level  .owl-prev, .experiance_level  .owl-next {
+	background: #fff !important;
+	padding: 25px !important;
+	height: 45px;
+	width: 61px;
+	border-radius: 0 !important;
+	margin: 0 !important;
+}
+
+.experiance_level  .owl-prev:hover ,
+.experiance_level  .owl-next:hover {
+	color: #000 !important;
+}
+
+.experiance_level{
+	position: relative;
+}
+
+.experiance_video iframe {
+	width: 100%;
+	height: 100%;
+}
+ 
+.experiance_area{
+	background: url('../images/experiance/bg.png') no-repeat scroll center center / cover;
+}
+
+.experiance_video {
+	position: absolute;
+	bottom: 59px;
+	right: 0;
+	z-index: 99;
+	width: 625px;
+	height: 408px;
+}
+
+   /*********************************/
+  /*********** Lose CSS**********/
+ /********************************/
+ .promise_left.lose_right {
+	padding-left: 74px;
+}
+
+   /*********************************/
+  /*********** CLIENT CSS**********/
+ /********************************/
+
+ .client_single_review > img {
+	width: 38px !important;
+	position: absolute;
+	top: -14px;
+	right: -14px;
+}
+
+.client_single_review {
+	background-color: #fff;
+	-webkit-box-shadow: 0 2px 10px #ddd;
+	        box-shadow: 0 2px 10px #ddd;
+	padding: 35px 40px;
+	position: relative;
+	margin: 15px;
+}
+
+.client_single_review > p {
+	color: #000000;
+	font-size: 14px; 
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	height: 100px; 
+}
+
+.client_info > img {
+	width: 50px !important;
+}
+
+.client_info {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	gap: 16px;
+}
+
+.client_name h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 2px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.client_name  > p {
+	color: #000000;
+	font-size: 14px; 
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.review_area {
+	background: #ebebeb;
+}
+
+
+
+   /*********************************/
+  /*********** Icon CSS**********/
+ /********************************/
+
+ .icon_area{
+	background: #000;
+ }
+
+ .iconsss {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: space-evenly;
+	    -ms-flex-pack: space-evenly;
+	        justify-content: space-evenly; 
+}
+
+.iconsss li img {
+	width: 66px;
+	height: 55px;
+}
+
+.iconsss li p {
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.iconsss li {
+	text-align: center;
+}
+
+   /*********************************/
+  /*********** Subscribe CSS**********/
+ /********************************/
+
+.subscribe_area {
+	background: #ff0000;
+}
+
+.subscribe_left h3 {
+	color: #fff;
+	font-size: 46px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif; 
+	text-transform: uppercase;
+}
+
+.subscribe_left p {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Work Sans', sans-serif;
+	line-height: 30px;
+}
+
+.subscribe_area .row {
+	-webkit-box-align: end;
+	    -ms-flex-align: end;
+	        align-items: end;
+}
+
+.subscribe_right input {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 26px;
+}
+
+.subscribe_right{
+	position: relative;
+}
+
+.subscribe_right .sub_btn {
+    background: #ffba00;
+    font-size: 21px;
+    font-weight: 700;
+    width: 170px;
+    border: none;
+    border-radius: 26px;
+    padding: 14px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.sub_btn:hover{
+	opacity: 0.83;
+}
+
+
+   /*********************************/
+  /*********** Footer CSS**********/
+ /********************************/
+
+ .footer_area {
+	background: #000;
+}
+
+.footer_left a img {
+	width: 210px; 
+}
+
+.footer_left p {
+	font-size: 11px;
+	color: #fff;
+	margin: 20px 0;
+    font-family: 'PT Sans', sans-serif; 
+
+}
+
+.footer_right {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.footer_left ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 30px;
+}
+
+.footer_left ul li a i {
+	color: #fff;
+	font-size: 24px;
+}
+
+.footer_right ul h4 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+    font-family: 'PT Sans', sans-serif; 
+	margin-bottom: 15px; 
+}
+
+.footer_right ul li a {
+	font-size: 16px;
+	color: #fff;
+    font-family: 'PT Sans', sans-serif; 
+	font-weight: 400;
+}
+
+.footer_right ul li {
+	margin-bottom: 20px;
+}
+
+.footer_middle img {
+	width: 88%; 
+	margin-top: 25px;
+}
+
+.footer_middle {
+	text-align: center;
+}
+
+.last_footer_left ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 55px;
+}
+
+.last_footer_left ul li a {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+.last_footer_right ul li a,
+.last_footer_right ul li p {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+    font-family: 'PT Sans', sans-serif; 
+}
+
+.last_footer_right ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 15px;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+
+.last_footer_main {
+	margin-top: 20px;
+}
+
+   /*********************************/
+  /*********** Second Page CSS**********/
+ /********************************/
+
+
+
+ .banner_2_right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+
+.banner_2_left {
+	position: relative;
+	z-index: 1;
+}
+
+.banner_2_left_text h5 {
+	color: #ff0000;
+	font-size: 18px;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.banner_2_left_text h3 {
+	color: #171717;
+	font-size: 31px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.banner_2_left_text h2 {
+	font-size: 80px;
+	color: #000;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner_2_left_text h2 span { 
+	color: #ff0000; 
+}
+
+.banner_2_left_text h4 {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #171717;
+	margin-bottom: 45px;
+}
+
+.banner_2_left_text {
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header_area.header_area2 {
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+	background: transparent;
+}
+
+.header_area2 .menu2 li a {
+	color: #fff; 
+}
+
+.banner_2_image {
+	height: 1000px;
+}
+
+.banner_2_image img {
+	width: 100%;
+	height: 100%;
+}
+
+
+   /*********************************/
+  /*********** Hero CSS**********/
+ /********************************/
+
+
+.hero_area {
+	background-color: #f1e9e9;
+	padding: 30px 0;
+}
+
+.hero_text h3 {
+	color: #000;
+	font-size: 27px;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	top: 27px;
+}
+
+.hero_text {
+	position: relative;
+}
+
+
+
+
+   /*********************************/
+  /*********** Male CSS**********/
+ /********************************/
+
+ .male_ul li img {
+	width: 25px;
+	margin-top: 12px;
+}
+
+.male_right h4 {
+	color: #ff0000;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.male_right h2 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #171717;
+	font-family: 'Montserrat', sans-serif;
+	margin: 5px 0 40px 0;
+	text-transform: uppercase;
+}
+
+.male_ul li {
+	display: flex;
+	align-items: flex-start;
+	gap: 15px;
+	margin-bottom: 25px;
+}
+
+.male_text h3 {
+	font-size: 36px;
+	font-weight: 700;
+	color: #ff0000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.male_text p {
+	color: #000000;
+	font-size: 22px;
+}
+
+.male_ul {
+	margin-bottom: 60px;
+}
+
+.male_left {
+	width: 100%;
+	height: 100%;
+}
+
+.male_left img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+   /*********************************/
+  /*********** Clean CSS**********/
+ /********************************/
+
+.clean_ul li img {
+	width: 130px;
+}
+
+.clean_right h4 {
+	color: #ff0000;
+	font-size: 22px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+}
+
+.clean_right h2 {
+	font-size: 66px;
+	font-weight: 600;
+	color: #171717;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 40px;
+}
+
+.clean_ul li p {
+	color: #171717;
+	font-size: 25px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.clean_ul li {
+	display: flex;
+	gap: 54px;
+	margin-bottom: 37px;
+}
+
+
+ 
+
+   /*********************************/
+  /*********** instant CSS**********/
+ /********************************/
+
+
+
+ .instant_area{
+	position: relative;
+ }
+
+ .instant_right {
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.instant_ul h3 {
+	font-size: 25px;
+	font-weight: 400;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.instant_ul h3 span { 
+	font-weight: 700;
+	color: #ff0000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* 
+
+    font-family: 'PT Sans', sans-serif; 
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+	font-family: 'Work Sans', sans-serif;
+
+
+ 
+ */
