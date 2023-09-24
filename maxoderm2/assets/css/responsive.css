@@ -28,6 +28,9 @@
     .male_text p { 
         font-size: 18px;
     }
+    .clean_ul li { 
+        margin-bottom: 8px;
+    }
 }
 
 @media all and (max-width: 1300px){ 
