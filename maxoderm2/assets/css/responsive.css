@@ -62,6 +62,10 @@
     .menu {
         display: none;
     } 
+    .clean_ul_li img {
+        width: 127px !important;
+        height: 93px !important;
+    }
     .male_ul li img {
         margin-top: 3px;
     }

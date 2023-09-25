@@ -1065,6 +1065,43 @@ img{
 }
 
 
+.single_plan .btn_desin_1 { 
+	margin-left: -53px;
+}
+.male_circle p {
+	font-size: 17px;
+	font-weight: 600;
+	color: #fefefe;
+    font-family: 'Montserrat', sans-serif;
+}
+.male_circle h2 {
+	font-size: 74px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #fefefe;
+	line-height: 57px;
+}
+.male_left{
+	position: relative;
+}
+
+.male_circle {
+	background: #ff0000;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 10px;
+	left: 80px;
+}
+
+.clean_ul_li img {
+	width: 174px !important;
+}
 
 /* 
 
